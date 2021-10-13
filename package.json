@@ -1,0 +1,36 @@
+{
+  "name": "graphql-learning",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vite --config vite.config.test.ts"
+  },
+  "license": "MIT",
+  "author": "Miguel López <malopez1578@gmail.com>",
+  "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "graphql": "^15.6.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "vite-plugin-graphql": "^0.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "prettier": "^2.4.1",
+    "puppeteer": "^10.4.0",
+    "sass": "^1.42.1",
+    "vite": "^2.6.7",
+    "vite-plugin-linter": "^0.2.4",
+    "vite-plugin-test": "^0.0.5"
+  }
+}

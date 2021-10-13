@@ -1,0 +1,23 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - standard
+  - plugin:react/recommended
+  - plugin:prettier/recommended
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 12
+settings: {
+    react: {
+      version: "detect"
+    }
+  }
+plugins:
+  - react
+  - prettier
+rules: {
+  prettier/prettier: "error",
+  react/react-in-jsx-scope: 0
+}
